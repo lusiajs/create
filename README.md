@@ -34,6 +34,6 @@ bun run dev
 
 ## More
 
-| Topic       | Link                                   |
-| ----------- | -------------------------------------- |
-| Lusia guide | https://azpepoze.github.io/lusia/guide |
+| Topic       | Link                             |
+| ----------- | -------------------------------- |
+| Lusia guide | https://lusia.azpepoze.com/guide |
