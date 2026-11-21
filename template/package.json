@@ -1,0 +1,16 @@
+{
+  "name": "my-lusia-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "lusia dev .",
+    "build": "lusia build ."
+  },
+  "dependencies": {
+    "lusia": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.6.0"
+  }
+}
