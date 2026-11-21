@@ -1,8 +1,12 @@
 #!/usr/bin/env bun
 import { resolve } from "node:path";
 import { appNameFrom } from "./app-name.ts";
+import { listCreatedFiles } from "./created-files.ts";
 import { createLogger } from "./log.ts";
 import { scaffold } from "./scaffold.ts";
+import { buildSummary } from "./summary.ts";
+import { canShowBanner, detectColorMode } from "./terminal.ts";
+import { readPackageVersion } from "./version.ts";
 
 const log = createLogger("create");
 
@@ -13,13 +17,18 @@ async function main(): Promise<void> {
     process.exit(1);
   }
 
-  await scaffold(resolve(folder), appNameFrom(folder));
-  log.info(`Created ${folder}`);
-  log.info("Next steps:");
-  log.info(`  cd ${folder}`);
-  log.info("  bun install");
-  log.info("  bun run dev");
-  process.exit(0);
+  const target = resolve(folder);
+  await scaffold(target, appNameFrom(folder));
+
+  const isTerminal = Boolean(process.stdout.isTTY);
+  const summary = buildSummary({
+    folder,
+    fileNames: await listCreatedFiles(target),
+    version: await readPackageVersion(),
+    colorMode: detectColorMode(process.env, isTerminal),
+    showBanner: canShowBanner(isTerminal, process.stdout.columns),
+  });
+  process.stdout.write(summary);
 }
 
 main().catch((error: unknown) => {
