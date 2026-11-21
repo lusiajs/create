@@ -24,6 +24,34 @@ bun run dev
 > [!NOTE]
 > The target folder must be empty or missing.
 
+## What you see
+
+```text
+   ▄   ▄
+  ██▄ ▄██            ██╗     ██╗   ██╗███████╗██╗ █████╗
+  ███▄███            ██║     ██║   ██║██╔════╝██║██╔══██╗
+  ███████      ▄█▀   ██║     ██║   ██║███████╗██║███████║
+  ███████      ██    ██║     ██║   ██║╚════██║██║██╔══██║
+  ███████      ███   ███████╗╚██████╔╝███████║██║██║  ██║
+  ███████████████    ╚══════╝ ╚═════╝ ╚══════╝╚═╝╚═╝  ╚═╝
+  █████████████▀▀
+
+  Lusia 0.1.0-beta.1
+  Write UI in one file. Update it with variables.
+  Built for Bun.
+
+  ✔ Created my-app/
+      .gitignore  index.html  lusia.config.ts  package.json
+      tsconfig.json  src/App.lusia  src/main.ts
+
+  Start your app:
+
+      cd my-app && bun install && bun run dev
+
+  Guide   https://lusia.azpepoze.com/guide
+  GitHub  https://github.com/lusiajs/lusia
+```
+
 ## Template contents
 
 | File              | What it is for                             |

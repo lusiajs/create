@@ -22,3 +22,6 @@ Run `bun test` and `bun run typecheck` before a commit.
 
 # 7. Commits and code
 Use Conventional Commits, one commit per logical change. Keep files under about 150 lines, use full plain names, and write no comment bloat.
+
+# 8. Friendly output
+The happy path prints a friendly summary, and the logger is only for errors. Keep the banner at most 8 lines and 56 columns.
