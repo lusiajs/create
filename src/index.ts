@@ -9,7 +9,7 @@ const log = createLogger("create");
 async function main(): Promise<void> {
   const folder = Bun.argv[2];
   if (!folder) {
-    log.error("Usage: bun create lusia <folder>");
+    log.error("Usage: bun create lusiajs <folder>");
     process.exit(1);
   }
 

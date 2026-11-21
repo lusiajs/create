@@ -9,7 +9,7 @@ import { scaffold } from "../src/scaffold.ts";
 let root: string;
 
 beforeEach(async () => {
-  root = await mkdtemp(join(tmpdir(), "create-lusia-"));
+  root = await mkdtemp(join(tmpdir(), "create-"));
 });
 
 afterEach(async () => {
