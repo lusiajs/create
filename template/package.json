@@ -7,7 +7,7 @@
     "build": "lusia build ."
   },
   "dependencies": {
-    "lusia": "^0.1.0-beta.1"
+    "lusiajs": "^0.1.0-beta.1"
   },
   "devDependencies": {
     "@types/bun": "latest",

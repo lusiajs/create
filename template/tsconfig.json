@@ -9,5 +9,5 @@
     "allowImportingTsExtensions": true,
     "verbatimModuleSyntax": true
   },
-  "include": ["src", "lusia.config.ts", "node_modules/lusia/lusia.d.ts"]
+  "include": ["src", "lusia.config.ts", "node_modules/lusiajs/lusia.d.ts"]
 }
