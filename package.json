@@ -1,11 +1,11 @@
 {
-  "name": "create-lusia",
+  "name": "create-lusiajs",
   "version": "0.1.0-beta.1",
-  "description": "Start a Lusia app in one command: bun create lusia my-app.",
+  "description": "Start a Lusia app in one command: bun create lusiajs my-app.",
   "license": "MIT",
   "type": "module",
   "bin": {
-    "create-lusia": "./src/index.ts"
+    "create-lusiajs": "./src/index.ts"
   },
   "files": [
     "src",
