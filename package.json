@@ -1,0 +1,38 @@
+{
+  "name": "create-lusia",
+  "version": "0.1.0",
+  "description": "Start a Lusia app in one command: bun create lusia my-app.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "create-lusia": "./src/index.ts"
+  },
+  "files": [
+    "src",
+    "template",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "bun": ">=1.4"
+  },
+  "keywords": [
+    "lusia",
+    "create",
+    "scaffold",
+    "bun"
+  ],
+  "homepage": "https://github.com/lusiajs/create",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lusiajs/create.git"
+  },
+  "scripts": {
+    "test": "bun test",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.6.0"
+  }
+}
