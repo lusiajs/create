@@ -1,6 +1,6 @@
 <p align="center"><img src="https://raw.githubusercontent.com/lusiajs/lusia/main/logo/logo-128.png" width="96" alt="Lusia logo"></p>
 
-# create-lusia
+# create-lusiajs
 
 Start a Lusia app in one command. Lusia is a UI framework for Bun. Each component is a single `.lusia` file.
 
@@ -9,17 +9,17 @@ Lusia is in beta.
 ## Quick start
 
 ```bash
-bun create lusia my-app
+bun create lusiajs my-app
 cd my-app
 bun install
 bun run dev
 ```
 
-| Step                      | What it does                            |
-| ------------------------- | --------------------------------------- |
-| `bun create lusia my-app` | Copies the starter app into `my-app`    |
-| `bun install`             | Installs Lusia and the TypeScript types |
-| `bun run dev`             | Starts the dev server                   |
+| Step                        | What it does                            |
+| --------------------------- | --------------------------------------- |
+| `bun create lusiajs my-app` | Copies the starter app into `my-app`    |
+| `bun install`               | Installs Lusia and the TypeScript types |
+| `bun run dev`               | Starts the dev server                   |
 
 > [!NOTE]
 > The target folder must be empty or missing.
