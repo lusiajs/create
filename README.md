@@ -1,6 +1,10 @@
+<p align="center"><img src="https://raw.githubusercontent.com/lusiajs/lusia/main/logo/logo-128.png" width="96" alt="Lusia logo"></p>
+
 # create-lusia
 
 Start a Lusia app in one command. Lusia is a UI framework for Bun. Each component is a single `.lusia` file.
+
+Lusia is in beta.
 
 ## Quick start
 
