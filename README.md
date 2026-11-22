@@ -82,6 +82,9 @@ After you pick the folder, a list asks you to turn options on or off.
 | `src/App.lusia`   | The first component, with a counter button |
 | `.gitignore`      | Skips `node_modules` and `dist` in git     |
 
+> [!NOTE]
+> `package.json` also installs `@lusiajs/language-tools` as a dev dependency. The Lusia VS Code extension loads it from your project for autocomplete, errors and formatting. Keep its version equal to `lusiajs`.
+
 ## More
 
 | Topic       | Link                             |
