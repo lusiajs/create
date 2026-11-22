@@ -1,14 +1,21 @@
 import { cp, mkdir, readdir, readFile, rename, writeFile } from "node:fs/promises";
 import { join } from "node:path";
+import { writeConfigFile } from "./config-file.ts";
+import { defaultOptions, type CreateOptions } from "./options.ts";
 
 const templateDirectory = join(import.meta.dir, "../template");
 
-export async function scaffold(targetDirectory: string, appName: string): Promise<void> {
+export async function scaffold(
+  targetDirectory: string,
+  appName: string,
+  options: CreateOptions = defaultOptions,
+): Promise<void> {
   await assertFolderIsEmpty(targetDirectory);
   await mkdir(targetDirectory, { recursive: true });
   await cp(templateDirectory, targetDirectory, { recursive: true });
   await rename(join(targetDirectory, "_gitignore"), join(targetDirectory, ".gitignore"));
   await setPackageName(targetDirectory, appName);
+  await writeConfigFile(targetDirectory, options);
 }
 
 async function assertFolderIsEmpty(targetDirectory: string): Promise<void> {
