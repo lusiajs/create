@@ -25,3 +25,6 @@ Use Conventional Commits, one commit per logical change. Keep files under about 
 
 # 8. Friendly output
 The happy path prints a friendly summary, and the logger is only for errors. Keep the banner at most 8 lines and 56 columns.
+
+# 9. Indent script and style
+Indent the code inside `<script>` and `<style>` of a `.lusia` file by 2 spaces, in source files, templates and every example. The framework allows flush-left code, but this is the house style. Full example: `docs/CLAUDE.md` rule 11.

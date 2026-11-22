@@ -1,22 +1,22 @@
 <script>
-	import { variable } from "lusiajs";
+  import { variable } from "lusiajs";
 
-	const count = variable(0);
+  const count = variable(0);
 </script>
 
 <main>
-	<h1>Hello Lusia</h1>
-	<button onclick={() => count.value++}>Clicked {count.value} times</button>
+  <h1>Hello Lusia</h1>
+  <button onclick={() => count.value++}>Clicked {count.value} times</button>
 </main>
 
 <style>
-main {
-	font-family: system-ui;
-	padding: 2rem;
-}
+  main {
+    font-family: system-ui;
+    padding: 2rem;
+  }
 
-button {
-	font-size: 1rem;
-	padding: 0.5rem 1rem;
-}
+  button {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
 </style>
