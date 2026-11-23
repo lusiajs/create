@@ -24,6 +24,6 @@ describe("listCreatedFiles", () => {
     expect(names).toContain("package.json");
     expect(names).toContain("src/main.ts");
     expect(names).toContain(".gitignore");
-    expect(names.length).toBeLessThanOrEqual(8);
+    expect(names.length).toBeLessThanOrEqual(10);
   });
 });

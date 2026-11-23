@@ -1,7 +1,7 @@
 import { readdir } from "node:fs/promises";
 import { join } from "node:path";
 
-const maxFileNames = 8;
+const maxFileNames = 10;
 
 export async function listCreatedFiles(folder: string): Promise<string[]> {
   const topLevelNames = await listShownFiles(folder);

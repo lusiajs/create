@@ -27,6 +27,8 @@ describe("scaffold", () => {
       "index.html",
       "tsconfig.json",
       ".gitignore",
+      "AGENTS.md",
+      "CLAUDE.md",
       "src/main.ts",
       "src/App.lusia",
     ]) {
