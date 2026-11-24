@@ -1,6 +1,6 @@
 {
   "name": "create-lusiajs",
-  "version": "0.1.4-beta",
+  "version": "0.1.5-beta",
   "description": "Start a Lusia app in one command: bun create lusiajs my-app.",
   "license": "MIT",
   "type": "module",
