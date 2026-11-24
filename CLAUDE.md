@@ -6,7 +6,7 @@ This repo builds the npm package `create-lusiajs`, used as `bun create lusiajs m
 The template in `template/` may use only syntax from the Lusia Guide (https://lusia.azpepoze.com/guide). Markup syntax is designed by the user; never invent it.
 
 # 2. Keep the lusia version in sync
-The template depends on the published `lusiajs` and `@lusiajs/language-tools` packages. Keep both version ranges equal to the latest beta or release of lusia (currently `^0.1.1-beta`).
+The template depends on the published `lusiajs` and `@lusiajs/vscode-support` packages. Keep both version ranges equal to the latest beta or release of lusia (currently `^0.1.1-beta`).
 
 # 3. Release by tag
 Push a tag equal to the package version, such as `v0.1.0-beta.1`. `publish.yml` publishes to npm. Versions with a dash go to the `beta` dist-tag.

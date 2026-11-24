@@ -10,7 +10,7 @@
     "lusiajs": "^0.1.1-beta"
   },
   "devDependencies": {
-    "@lusiajs/language-tools": "^0.1.1-beta",
+    "@lusiajs/vscode-support": "^0.1.1-beta",
     "@types/bun": "latest",
     "typescript": "^5.6.0"
   }

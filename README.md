@@ -85,7 +85,7 @@ After you pick the folder, a list asks you to turn options on or off.
 | `CLAUDE.md`       | Points Claude Code to `AGENTS.md`          |
 
 > [!NOTE]
-> `package.json` also installs `@lusiajs/language-tools` as a dev dependency. The Lusia VS Code extension loads it from your project for autocomplete, errors and formatting. Keep its version equal to `lusiajs`.
+> `package.json` also installs `@lusiajs/vscode-support` as a dev dependency. The Lusia VS Code extension loads it from your project for autocomplete, errors and formatting. Keep its version equal to `lusiajs`.
 
 ## More
 
