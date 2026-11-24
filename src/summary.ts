@@ -41,7 +41,7 @@ function bannerBlock(colorMode: ColorMode): string[] {
 function titleBlock({ version, colorMode }: SummaryInput): string[] {
   return [
     `${margin}${styled(`Lusia ${version}`, [boldCode], colorMode)}`,
-    `${margin}Write UI in one file. Update it with variables.`,
+    `${margin}Write UI in one file. Small, fast updates, with motion built in.`,
     `${margin}Built for Bun.`,
   ];
 }

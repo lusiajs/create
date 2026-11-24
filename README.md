@@ -55,7 +55,7 @@ After you pick the folder, a list asks you to turn options on or off.
   █████████████▀▀
 
   Lusia 0.1.0-beta.1
-  Write UI in one file. Update it with variables.
+  Write UI in one file. Small, fast updates, with motion built in.
   Built for Bun.
 
   ✔ Created my-app/
