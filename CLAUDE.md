@@ -28,7 +28,7 @@ Run `bun test` and `bun run typecheck` before a commit.
 
 # 7. Commits and code
 
-Use Conventional Commits, one commit per logical change. Keep files under about 150 lines, use full plain names, and write no comment bloat.
+Use Conventional Commits, one commit per logical change. Keep files under about 150 lines, use full plain names, and write no comment bloat. Before committing, look for the issue the change belongs to and reference it: `refs #N`, or `fixes #N` when the commit finishes it.
 
 # 8. Friendly output
 
