@@ -7,10 +7,10 @@
     "build": "lusia build ."
   },
   "dependencies": {
-    "lusiajs": "^0.1.1-beta"
+    "lusiajs": "^0.1.2-beta"
   },
   "devDependencies": {
-    "@lusiajs/vscode-support": "^0.1.1-beta",
+    "@lusiajs/vscode-support": "^0.1.2-beta",
     "@types/bun": "latest",
     "typescript": "^5.6.0"
   }
