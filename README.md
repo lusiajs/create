@@ -28,15 +28,15 @@ bun run dev
 
 After you pick the folder, a list asks you to turn options on or off.
 
-| Key                 | Action           |
-| ------------------- | ---------------- |
-| Up / down           | Move the cursor  |
-| Space               | Turn the option on or off |
-| Enter               | Confirm          |
+| Key       | Action                    |
+| --------- | ------------------------- |
+| Up / down | Move the cursor           |
+| Space     | Turn the option on or off |
+| Enter     | Confirm                   |
 
-| Option        | Flag                                      | Default | What it does                                                                                       |
-| ------------- | ----------------------------------------- | ------- | -------------------------------------------------------------------------------------------------- |
-| Animate space | `--animate-space` / `--no-animate-space`  | Off     | Nearby elements slide to their new place when one is added or removed. Sets `animateSpace` in `lusia.config.ts`. |
+| Option        | Flag                                     | Default | What it does                                                                                                     |
+| ------------- | ---------------------------------------- | ------- | ---------------------------------------------------------------------------------------------------------------- |
+| Animate space | `--animate-space` / `--no-animate-space` | Off     | Nearby elements slide to their new place when one is added or removed. Sets `animateSpace` in `lusia.config.ts`. |
 
 > [!TIP]
 > Pass a flag to skip the list, for example `bun create lusiajs my-app --animate-space`.

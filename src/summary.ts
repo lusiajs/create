@@ -57,7 +57,11 @@ function createdBlock({ folder, fileNames, colorMode }: SummaryInput): string[] 
 
 function startBlock({ folder, colorMode }: SummaryInput): string[] {
   const command = `cd ${shellQuote(folder)} && bun install && bun run dev`;
-  const styledCommand = styled(command, [boldCode, foregroundCode(accentColor, colorMode)], colorMode);
+  const styledCommand = styled(
+    command,
+    [boldCode, foregroundCode(accentColor, colorMode)],
+    colorMode,
+  );
   return [`${margin}Start your app:`, "", `${fileIndent}${styledCommand}`];
 }
 

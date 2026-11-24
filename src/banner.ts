@@ -30,7 +30,8 @@ function bannerColor(lineIndex: number, lineCount: number): Color {
 }
 
 function mixRgb(from: Rgb, to: Rgb, ratio: number): Rgb {
-  const channel = (index: number): number => Math.round(from[index] + (to[index] - from[index]) * ratio);
+  const channel = (index: number): number =>
+    Math.round(from[index] + (to[index] - from[index]) * ratio);
   return [channel(0), channel(1), channel(2)];
 }
 

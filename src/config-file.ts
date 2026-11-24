@@ -16,7 +16,10 @@ export default defineConfig({
 `;
 
 /** Writes the config only when an option changes it; the template keeps its default file otherwise. */
-export async function writeConfigFile(targetDirectory: string, options: CreateOptions): Promise<void> {
+export async function writeConfigFile(
+  targetDirectory: string,
+  options: CreateOptions,
+): Promise<void> {
   if (!options.animateSpace) return;
   await writeFile(join(targetDirectory, configFileName), animateSpaceConfigSource);
 }
