@@ -8,7 +8,7 @@ The template in `template/` may use only syntax from the Lusia Guide (https://lu
 
 # 2. Keep the lusia version in sync
 
-The template depends on the published `lusiajs` and `@lusiajs/vscode-support` packages. Keep both version ranges equal to the latest beta or release of lusia (currently `^0.1.5-beta` for both `lusiajs` and `@lusiajs/vscode-support`).
+The template depends on the published `lusiajs` and `@lusiajs/vscode-support` packages. Keep both version ranges equal to the latest beta or release of lusia (currently `^0.2.0-beta` for both `lusiajs` and `@lusiajs/vscode-support`).
 
 # 3. Release by tag
 
